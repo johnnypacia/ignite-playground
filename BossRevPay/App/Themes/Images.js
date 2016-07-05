@@ -9,8 +9,6 @@ const images = {
   bossPay: require('../Images/boss-pay.png'),
   bossRevpayFlat: require('../Images/boss-revpay-flat.png'),
   bossRevpayTransSm: require('../Images/boss-revpay-trans-sm.png'),
-  ccIcons: require('../Images/cc-icons'),
-  cc1Cvv: require('../Images/cc1-cvv.png'),
   compareArrows: require('../Images/compare_arrows.png'),
   confirm: require('../Images/confirm.png'),
   icFlagWhite: require('../Images/ic_flag_white.png'),
