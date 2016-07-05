@@ -10,8 +10,7 @@ export const addExample = (title, usage) => { if (DebugSettings.includeExamples)
 const renderExample = (example) => {
   return (
     <View key={example.title}>
-      <View style={ApplicationStyles.darkLabelContainer}>
-        <Text style={ApplicationStyles.darkLabel}>{example.title}</Text>
+      <View>
       </View>
       {example.usage.call()}
     </View>

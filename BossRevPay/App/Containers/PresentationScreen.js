@@ -4,6 +4,7 @@ import { Images } from '../Themes'
 import { connect } from 'react-redux'
 import Routes from '../Navigation/Routes'
 import RoundedButton from '../Components/RoundedButton'
+import SmoothButton from '../Components/SmoothButton'
 
 // Styles
 import styles from './Styles/PresentationScreenStyle'
@@ -28,37 +29,10 @@ class PresentationScreen extends React.Component {
           <View style={styles.centered}>
             <Image source={Images.bossRevpayFlat} style={styles.logo} />
           </View>
-
-          <View style={styles.section} >
-            <Text style={styles.sectionText} >
-              Default screens for development, debugging, and alpha testing
-              are available below.
-            </Text>
-          </View>
-
+      
           <RoundedButton onPress={() => this.props.navigator.push(Routes.AllComponentsScreen)}>
-            Component Examples Screen
+            Send Bread
           </RoundedButton>
-
-          <RoundedButton onPress={() => this.props.navigator.push(Routes.UsageExamplesScreen)}>
-            Usage Examples Screen
-          </RoundedButton>
-
-          <RoundedButton onPress={() => this.props.navigator.push(Routes.APITestingScreen)}>
-            API Testing Screen
-          </RoundedButton>
-
-          <RoundedButton onPress={() => this.props.navigator.push(Routes.ThemeScreen)}>
-            Theme Screen
-          </RoundedButton>
-
-          <RoundedButton onPress={() => this.props.navigator.push(Routes.DeviceInfoScreen)}>
-            Device Info Screen
-          </RoundedButton>
-
-          <View style={styles.centered}>
-            <Text style={styles.subtitle}>Made with ❤️ by Infinite Red</Text>
-          </View>
 
         </ScrollView>
       </View>
