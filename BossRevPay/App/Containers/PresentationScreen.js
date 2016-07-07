@@ -8,6 +8,7 @@ import SmoothButton from '../Components/SmoothButton'
 
 // Styles
 import styles from './Styles/PresentationScreenStyle'
+import * as Animatable from 'react-native-animatable';
 
 class PresentationScreen extends React.Component {
 
@@ -28,6 +29,7 @@ class PresentationScreen extends React.Component {
         <ScrollView style={styles.container}>
           <View style={styles.centered}>
             <Image source={Images.bossRevpayFlat} style={styles.logo} />
+            <Animatable.Text animation="zoomIn">Zoom me up, Scotty</Animatable.Text>
           </View>
       
           <RoundedButton onPress={() => this.props.navigator.push(Routes.AllComponentsScreen)}>

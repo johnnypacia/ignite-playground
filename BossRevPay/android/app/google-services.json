@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "195055180557",
+    "project_id": "bossrevpay"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195055180557:android:063e29d67d68aa29",
+        "android_client_info": {
+          "package_name": "com.bossrevpay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDc3TXFc1U7hC8VHVd2vWlKb0hg_mfrYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-80465820-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
